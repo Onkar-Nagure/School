@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+h3 {
+    color: #333;
+}
+h2 {
+    color: Green;
+    margin-top: 20px;
+}
+.add-student-button {
+    background-color: #007BFF; /* Blue color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.add-student-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+.student-table {
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-height: 400px; /* Increased height for better visibility */
+    overflow-y: auto; /* Changed from scroll to auto */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: deepskyblue;
+    color: white;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+.delete-button {
+    background-color: #e74c3c; /* Red color for delete button */
+    padding: 5px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.delete-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+.update-button {
+    background-color: #7D7D7D; /* Grey color for update button */
+    padding: 5px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.update-button:hover {
+    background-color: #5C5C5C; /* Darker grey on hover */
+}
+.logout-button {
+    background-color: #e74c3c; /* Red color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+    margin-top: 20px; /* Spacing above the button */
+}
+
+.logout-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+.search-form {
+    float: right;
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between form and button */
+}
+
+.search-bar {
+    padding: 8px;
+}
+
+.search-button {
+    padding: 8px 16px;
+    background-color: #007BFF; /* Example color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.search-button:hover {
+    background-color: #45a049;
+}
+
+.modal {
+    align-self: center;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 10px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    justify-content: center; /* Centering the modal */
+    align-items: center; /* Centering the modal */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px; /* Set a width */
+    text-align: center; /* Center text */
+    border-radius: 5px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
